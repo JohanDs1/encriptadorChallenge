@@ -1,0 +1,194 @@
+*{
+    background: url(../img/hacker-style-green-running-numbers-or-matrix-concept-free-video.jpg);
+    background-repeat:no-repeat;
+    background-position: 100%;
+    font-family: 'Orbitron';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.logo{
+    display: flex;
+    perspective: 1000px;
+    margin: 25px 0 10px 150px;
+    width: 2rem;
+    backface-visibility: hidden;
+    
+}
+.logo:hover {
+    
+    transform: rotate(360deg) scale(0.9);
+    transition: transform 2s ease;
+    
+    
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.text-area{
+    border-radius: 20px;
+    padding: 10px 0 0 20px;
+    text-transform: lowercase;
+    color: #f5f5f5;
+    
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+}
+.text-area:focus{
+    outline: none;
+}
+.cuadroIzq p{
+
+    color: #f5f5f5;
+
+}
+.clearAll {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #f5f5f5;
+    width: 15px;
+    position:absolute;
+    height: 20px;
+    top: 85px;
+    left: 925px;
+  }
+  
+.clearAll span {
+    font-size: 32px;
+  }
+
+
+.informacion{
+    display: inline;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    top: 625px;
+    left: 170px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+
+}
+.botones{
+    position: flex;
+    margin: 18px;
+    text-align: center;
+}
+.caja{
+    
+    border-radius: 20px;
+    color: #f5f5f5;
+    padding: 1rem 0 0 2rem;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+    
+}
+
+.caja:focus{
+    outline: none;
+    
+}
+::placeholder{
+    font-weight: bold; 
+    color:rgb(200, 202, 203)
+}
+
+.encriptar{
+    border-radius: 10px;
+    color: #f5f5f5;
+    background: rgba(9, 26, 219, 0.675);
+    font-weight: bold;
+    width: 328px;
+    border-color: white;
+}
+
+.desencriptar{
+    border-radius: 10px;
+    color: #f5f5f5;
+    background: rgba(87, 92, 150, 0.722);
+    font-weight: bold;
+    margin-left: 20px;
+    width: 336px;
+    border-color: white;
+}
+
+.copiar{
+    position:relative;
+    background: #1d5fc2c4;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 130px;
+    padding: 0 40px;
+    border-color: white;
+    
+}
+.copiar:hover{
+    transition: 1s ;
+    background: rgba(6, 228, 106, 0.763) ;
+    transform: scale(1.2);
+}
+
+
+
+  
